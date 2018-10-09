@@ -750,7 +750,7 @@ int lgw_start(long speed) {
     }
     err = lgw_setup_sx125x(1, rf_clkout, rf_enable[1], rf_radio_type[1], rf_rx_freq[1]);
     if (err != 0) {
-        DEBUG_MSG("ERROR: Failed to setup sx125x radio for RF chain 0\n");
+        DEBUG_MSG("ERROR: Failed to setup sx125x radio for RF chain 1\n");
         return LGW_HAL_ERROR;
     }
 
